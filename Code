@@ -1,0 +1,28 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter Second number: "))
+op = input("Enter operator (+, -, *, /, **, %): ")
+
+def calculator(a, b, op):
+        
+        if op == "+":
+            print("a + b:", a + b)
+
+        elif op == "-":
+            print("a - b:", a - b)
+
+        elif op == "*":
+            print("a * b:", a * b)
+        
+        elif op == "/":
+            print("a / b:", a / b)
+        
+        elif op == "**":
+            print("a ** b:", a ** b)
+        
+        elif op == "%":
+            print("a % b:", a % b)
+        
+        else:
+            print("Invalid operator")
+
+calculator(a, b, op)
